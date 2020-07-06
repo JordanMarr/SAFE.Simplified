@@ -1,5 +1,5 @@
 ﻿[<AutoOpen>]
-module Extensions
+module defaultnamespace.Extensions
 
 open Elmish
 

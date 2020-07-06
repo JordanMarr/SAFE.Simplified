@@ -1,4 +1,4 @@
-﻿module Server
+﻿module defaultnamespace.Server
 
 open Microsoft.Extensions.Logging
 open Microsoft.Extensions.Configuration

@@ -1,4 +1,4 @@
-module App
+module defaultnamespace.App
 
 open Feliz
 open Elmish

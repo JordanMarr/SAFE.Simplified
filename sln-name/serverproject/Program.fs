@@ -1,4 +1,4 @@
-﻿module Program
+﻿module defaultnamespace.Program
 
 open Saturn
 open Giraffe

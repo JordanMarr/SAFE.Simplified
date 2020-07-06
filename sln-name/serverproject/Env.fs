@@ -1,4 +1,4 @@
-﻿module Env
+﻿module defaultnamespace.Env
 
 /// A dummy interface that will tell us where this assembly is built
 type IAssemblyTag =

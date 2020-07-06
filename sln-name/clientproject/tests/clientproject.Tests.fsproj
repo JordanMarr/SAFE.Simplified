@@ -6,7 +6,7 @@
         <Compile Include="Tests.fs" />
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\src\Client.fsproj" />
+        <ProjectReference Include="..\src\clientproject.fsproj" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Fable.Mocha" Version="2.8.0" />

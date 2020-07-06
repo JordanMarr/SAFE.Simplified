@@ -21,6 +21,6 @@
         <PackageReference Include="Zanaptak.TypedCssClasses" Version="0.2.0" />
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\..\shared\Shared.fsproj" />
+        <ProjectReference Include="..\..\sharedproject\sharedproject.fsproj" />
     </ItemGroup>
 </Project>

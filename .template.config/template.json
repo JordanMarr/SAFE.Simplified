@@ -1,0 +1,33 @@
+{
+  "author": "Zaid-Ajaj <https://github.com/Zaid-Ajaj/SAFE.Simplified>",
+  "classifications": [ "F#", "FSharp", "SAFE", "Fable", "React" ], 
+  "name": "SAFE.Simplified.Template",
+  "identity": "SAFE.Simplified",
+  "shortName": "safesimple",
+  "tags": {
+    "language": "F#"
+  },
+  "sourceName": "sln-name",
+  "symbols":{
+      "namespace": {
+          "type": "parameter",
+          "defaultValue": "",
+          "replaces":"defaultnamespace."
+      },
+      "clientProjectName": {
+          "type": "parameter",
+          "defaultValue": "Client",
+          "replaces":"clientproject"
+      },
+      "serverProjectName": {
+          "type": "parameter",
+          "defaultValue": "Server",
+          "replaces":"serverproject"
+      },
+      "sharedProjectName": {
+          "type": "parameter",
+          "defaultValue": "Shared",
+          "replaces":"sharedproject"
+      }
+  }
+}

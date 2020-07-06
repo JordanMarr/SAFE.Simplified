@@ -1,4 +1,4 @@
-module Main
+module defaultnamespace.Main
 
 open Fable.Core.JsInterop
 

@@ -12,11 +12,11 @@ open Fake.Core.TargetOperators
 Setup.context()
 
 let path xs = Path.Combine(Array.ofList xs)
-let solutionRoot = Files.findParent __SOURCE_DIRECTORY__ "App.sln";
-let server = path [ solutionRoot; "server" ]
-let client =  path [ solutionRoot; "client" ]
-let serverTests = path [ solutionRoot; "serverTests" ]
-let clientTests = path [ solutionRoot; "clientTests" ]
+let solutionRoot = Files.findParent __SOURCE_DIRECTORY__ "sln-name.sln";
+let server = path [ solutionRoot; "serverproject" ]
+let client =  path [ solutionRoot; "clientproject" ]
+let serverTests = path [ solutionRoot; "serverprojectTests" ]
+let clientTests = path [ solutionRoot; "clientprojectTests" ]
 let clientDist = path [ client; "dist" ]
 let dist = path [ solutionRoot; "dist" ]
 let clientOutput = path [ dist; "wwwroot" ]

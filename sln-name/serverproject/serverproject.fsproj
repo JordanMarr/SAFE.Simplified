@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\shared\Shared.fsproj" />
+    <ProjectReference Include="..\shared-project\shared-project.fsproj" />
   </ItemGroup>
 
 </Project>

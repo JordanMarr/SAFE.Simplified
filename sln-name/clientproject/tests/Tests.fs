@@ -1,4 +1,4 @@
-module Tests
+module defaultnamespace.Tests
 
 open Fable.Mocha
 open App
