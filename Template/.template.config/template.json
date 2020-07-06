@@ -17,17 +17,20 @@
       "clientProjectName": {
           "type": "parameter",
           "defaultValue": "Client",
-          "replaces":"clientproject"
+          "replaces":"clientproject",
+          "fileRename": "clientproject"
       },
       "serverProjectName": {
           "type": "parameter",
           "defaultValue": "Server",
-          "replaces":"serverproject"
+          "replaces":"serverproject",
+          "fileRename": "serverproject"
       },
       "sharedProjectName": {
           "type": "parameter",
           "defaultValue": "Shared",
-          "replaces":"sharedproject"
+          "replaces":"sharedproject",
+          "fileRename": "sharedproject"
       }
   }
 }

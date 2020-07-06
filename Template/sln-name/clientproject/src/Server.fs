@@ -1,4 +1,4 @@
-﻿module defaultnamespace.Server
+﻿module defaultnamespace.clientproject.Server
 
 open System
 open Fable.Core
